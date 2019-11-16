@@ -1,0 +1,869 @@
+body{
+   margin: 0;
+    padding: 0;
+    background: #f3f3f3;
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+section{
+    padding-bottom: 80px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+/*================================*/
+
+/*modifiers*/
+.inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row_end{
+    display: flex;
+    justify-content: flex-end;
+}
+.col{
+    max-width: 370px;
+    width: 100%;
+}
+
+/*====================================*/
+
+/*h1-h6   */
+h1{
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #57cbf4;
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 25px;
+}
+h2 span{
+   font-style: italic;
+}
+h3{
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+h5{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+h5:before{
+    display: inline-block;
+    content: url("../images/clock.png");
+    margin-right: 10px;
+    position: relative;
+    top:2px;
+}
+h6{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+
+    margin-bottom: 20px;
+}
+
+/*for_social*/
+.for_social{
+    background: #00bff0;
+    padding: 13px 0;
+}
+.for_social .tel{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+.for_social .tel:before{
+    display: inline-block;
+    content: "\f095";
+
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    font-size: 12px;
+    line-height:12px;
+    font-weight: 900;
+    color: #fff;
+
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.for_social .social a{
+    display: inline-block;
+
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #fff;
+
+    margin-left: 15px;
+    transition: 0.4s;
+}
+.for_social .social .facebook:hover{
+    color: #029ec6;
+}
+.for_social .social .twitter:hover{
+    color: #029ec6;
+}
+.for_social .social .pinterest:hover{
+    color: pink;
+}
+.for_social .social .google:hover{
+    color: #029ec6;
+}
+.for_social .social .instagram:hover{
+    color: indianred;
+}
+
+.for_social .copyright{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.for_social .copyright span{
+    all:initial;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #fff;
+}
+/*==========================*/
+
+/*header*/
+
+header{
+    padding: 35px 0;
+    background: #72d0f4;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 16px;
+}
+header nav ul li a{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+
+    padding: 14px 21px;
+    border-radius: 3px;
+    border: solid 1px transparent;
+
+    transition: 0.4s;
+}
+header nav ul li a:hover{
+    border: solid 1px #fff;
+}
+/*=========================*/
+
+
+/*workouts*/
+
+.workouts{
+    padding-top: 145px;
+}
+.workouts p{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #8b9297;
+
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto 80px;
+}
+.workouts .title{
+    background:#72d0f4;
+    padding: 0 20px;
+}
+.workouts .title .room{
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+.workouts .title h3 span{
+    font-style: italic;
+    font-weight: 300;
+}
+.workouts .video{
+    width: 100%;
+    height: 200px;
+    background: #b7b7b7;
+    border-bottom:solid 5px #00bff0;
+
+}
+/*=====================*/
+
+/*classes_membership*/
+
+.classes_prices .classes{
+    position: relative;
+    max-width: 770px;
+    width: 100%;
+
+    margin-right: 30px;
+}
+.classes_prices .classes:before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 200px;
+    background: #fff;
+
+    top:80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.classes_prices .classes .table{
+    background: #72d0f4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classes_prices .classes .table .col_of_table{
+    width: 50%;
+    background: #72d0f4;
+    padding: 0 30px 15px;
+}
+.classes_prices .classes .table .col_of_table .row{
+    padding: 20px 0 15px;
+    border-bottom: dotted 1px #fff;
+
+    margin-bottom: 5px;
+}
+.classes_prices .classes .table .col_of_table .row .icon_group a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+
+    margin-left: 20px;
+}
+.classes_prices .classes .table .fas{
+    font-weight: 900;
+}
+.classes_prices .prices {
+    padding: 60px 0 27px ;
+    text-align: center;
+    background: #00bff0;
+}
+.classes_prices .prices .big-text{
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+
+    margin-bottom: 20px;
+}
+.classes_prices .prices p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 60px;
+
+    margin-bottom: 20px;
+}
+.classes_prices .prices button{
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+
+    background: transparent;
+    min-width: 80px;
+    text-align: center;
+    border: solid 1px #fff;
+    border-radius: 3px;
+}
+/*===========================*/
+
+/*trainers_events_blog*/
+.trainers_events_blog .trainers{
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.trainers_events_blog .trainers .card{
+    padding: 35px 20px 30px;
+}
+.trainers_events_blog .trainers .card .for_img_radius{
+    height:80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #00bff0;
+    overflow: hidden;
+
+    margin: 0 auto 10px;
+}
+.trainers_events_blog .trainers .card .for_img_radius img{
+    display: block;
+    width: 100%;
+}
+.trainers_events_blog .trainers .card .name{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #00bff0;
+    text-transform: uppercase;
+
+    margin-bottom: 5px;
+}
+.trainers_events_blog .trainers .card .position{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #00bff0;
+    font-style: italic;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+.trainers_events_blog .trainers .card p{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    color: #000;
+    font-style: italic;
+
+    margin-bottom: 16px;
+}
+.trainers_events_blog .trainers i{
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    color: #b8b8b8;
+    margin-right: 5px;
+
+    transition: 0.4s;
+}
+
+.trainers_events_blog .trainers .fa-heart:hover{
+     color: red;
+}
+.trainers_events_blog .trainers .fa-thumbs-up:hover{
+    color: #029ec6;
+}
+.trainers_events_blog .trainers .fab:hover{
+    color: #72d0f4;
+}
+.trainers_events_blog .trainers .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    font-size: 40px;
+    color: #00bff0;
+    outline: none;
+}
+
+.trainers_events_blog .trainers .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 100px;
+    right: 5px;
+    font-size: 40px;
+    color: #00bff0;
+    outline: none;
+}
+.trainers_events_blog .owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.trainers_events_blog .trainers .owl-carousel:after{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 1px;
+    height: 190px;
+    background: #00bff0;
+
+    left: 0;
+    right: 0;
+    top:30px;
+    margin: auto;
+}
+.trainers_events_blog .events{
+   background: #a5e5fe;
+}
+.trainers_events_blog .events .row{
+    padding: 18px 30px 15px 30px;
+    position: relative;
+}
+.trainers_events_blog .events .row:first-of-type:after{
+    position: absolute;
+    display: block;
+    content: '';
+    width:285px ;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #fff;
+}
+.trainers_events_blog .events .row .col-1 .data{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+.trainers_events_blog .events .row .col-1 .for_img{
+    width: 120px;
+    height: 70px;
+    background: #8b9297;
+    margin-right: 30px;
+}
+.trainers_events_blog .events .row .col-1 .for_img img{
+    display: block;
+    width: 100%;
+}
+.trainers_events_blog .events .row .col-2{
+    text-align: center;
+}
+.trainers_events_blog .events .row .col-2 .time{
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    color: red;
+
+    margin-bottom: 5px;
+}
+.trainers_events_blog .events .row .col-2 p{
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    color: #000;
+
+    margin-bottom: 5px;
+}
+.trainers_events_blog .events .row .col-2 button{
+    min-width: 85px;
+    line-height: 18px;
+    text-align: center;
+    background: transparent;
+
+    font-size: 10px;
+    font-weight: 600;
+    color: red;
+    text-transform: uppercase;
+
+    border: solid 1px #000;
+}
+
+.trainers_events_blog .blog{
+    background: #d4d6d6;
+    padding: 15px 0 14px 20px;
+}
+.trainers_events_blog .blog .row{
+    margin-bottom: 10px;
+}
+.trainers_events_blog .blog .row:last-of-type{
+    margin-bottom: 0;
+}
+.trainers_events_blog .blog .for_img{
+    width: 70px;
+    height: 70px;
+    background: #8b9297;
+    border-radius: 5px;
+    overflow: hidden;
+
+    margin-right: 10px;
+}
+.trainers_events_blog .blog .for_img img{
+    display: block;
+    width: 100%;
+}
+.trainers_events_blog .blog div p{
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+
+    max-width: 260px;
+
+    margin-bottom: 10px;
+}
+.trainers_events_blog .blog div .data{
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #000;
+
+}
+/*=============================*/
+
+/*gallery_partners*/
+.gallery_partners .gallery{
+    position: relative;
+    max-width: 770px;
+    width: 100%;
+}
+
+.gallery_partners .gallery .item img{
+    display: block;
+    width: 255px;
+    height: 170px;
+
+    margin: auto;
+}
+.gallery_partners .gallery .item img:first-of-type{
+    border-bottom: solid 2px transparent;
+}
+.gallery_partners .owl-carousel .owl-nav.disabled{
+    display: block;
+}
+.gallery_partners .gallery .owl-carousel .owl-nav button.owl-prev{
+   position: absolute;
+    top:138px;
+    left: 20px;
+    font-size: 60px;
+    color:#029ec6;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+
+
+}
+.gallery_partners .gallery .owl-carousel .owl-nav button.owl-prev span{
+    position: relative;
+    top:-18px;
+    left: -5px;
+}
+.gallery_partners .gallery .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top:138px;
+    right: 20px;
+    font-size: 60px;
+    color:#029ec6;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+}
+.gallery_partners .gallery .owl-carousel .owl-nav button.owl-next span{
+    position: relative;
+    top:-18px;
+    right:-5px;
+}
+.gallery_partners .partner{
+    padding: 20px 0;
+    text-align: center;
+
+
+}
+.gallery_partners .partner img{
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.gallery_partners .partner img:nth-of-type(5),
+.gallery_partners .partner img:last-of-type{
+    margin-bottom: 0;
+}
+/*================================*/
+
+/*map*/
+.map{
+    position: relative;
+    padding-bottom: 0;
+}
+.map .container{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.map .col{
+    background: rgba(0,160,170,0.5);
+   padding: 28px 20px 25px 25px;
+    text-align: center;
+}
+.map .col .row{
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+
+    border-bottom: solid 1px #fff;
+}
+.map .col .row:last-of-type{
+    margin-bottom: 20px;
+}
+.map .col p{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #fff;
+
+    margin-bottom: 20px;
+}
+.map .col h6:last-of-type{
+   font-style: italic;
+
+    margin-bottom: 0;
+}
+.map .day_of_week:before{
+    display:inline-block;
+    content: '\f133';
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+}
+/*======================================*/
+
+
+/*motto*/
+.motto{
+    padding: 120px 0;
+    background: #f3f3f3;
+}
+.motto p{
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #72d0f4;
+
+    max-width: 650px;
+    margin:auto;
+}
+.motto p:before {
+    position: absolute;
+    display: inline-block;
+    content: '\f099';
+    font-family: "Font Awesome\ 5 Brands", "Font Awesome\ 5 Free", sans-serif;
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 900;
+    color: #029ec6;
+    top:-20px;
+    left: -120px;
+}
+.map p span{
+    color: #0056a4;
+}
+/*========================================*/
+
+/*footer*/
+footer{
+    padding: 45px 0 55px;
+    background:#72d0f4;
+}
+footer h3{
+    line-height: 18px;
+
+    margin-bottom: 30px;
+}
+footer .sign_up p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+
+    max-width: 220px;
+    margin-bottom: 30px;
+}
+footer .sign_up form input{
+    display: block;
+    max-width: 330px;
+    width: 100%;
+    background: #b9e8fa;
+    line-height: 37px;
+    border:solid 1px #029ec6;
+    padding-left: 25px;
+
+    margin-bottom: 17px;
+}
+footer .sign_up form input::-webkit-input-placeholder {
+    font-family: 'Myriad Pro', sans-serif;
+    color: #00afec;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+footer .sign_up form button{
+    position: relative;
+    display: inline-block;
+    min-width: 220px;
+    background: #e25050;
+
+    font-size: 12px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    text-align: left;
+    padding-left: 25px;
+
+}
+footer .sign_up form button:after{
+    position: absolute;
+    display: block;
+    content: "\f105";
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    right: 25px;
+    top:50%;
+    transform: translateY(-50%);
+}
+footer .logo{
+    display: block;
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+footer .gym p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: 400;
+
+    margin-bottom: 30px;
+}
+footer .gym .phone{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    font-style: italic;
+
+    margin-bottom: 15px;
+}
+footer .gym .phone:before{
+    display: inline-block;
+    content: "Phone:";
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    vertical-align: middle;
+
+    margin-right: 25px;
+}
+footer .gym .email{
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+footer .gym .email:before{
+    display: inline-block;
+    content: "Phone:";
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    vertical-align: middle;
+
+    margin-right: 25px;
+}
+footer .menu{
+    padding: 0 30px;
+}
+footer .menu li{
+    margin-bottom: 13px;
+}
+footer .menu li a{
+    color: #fff;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+}
+footer .menu li a:hover{
+    text-decoration: underline;
+}
+
+footer .menu li a:before{
+    display: inline-block;
+    content: "\f105";
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+
+    margin-right: 10px;
+}
+
+/*=========================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+

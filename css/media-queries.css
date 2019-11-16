@@ -1,0 +1,134 @@
+@media(max-width: 1170px){
+    .container.row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container{
+        padding: 0 15px;
+    }
+    .col:first-of-type{
+        margin-right: 15px;
+    }
+    .col:nth-of-type(2){
+        margin-left: 15px;
+    }
+    .col:last-of-type{
+        margin-top: 50px;
+    }
+    .workouts{
+        padding-top: 80px;
+    }
+    .classes_prices .col{
+        margin-left: 0;
+    }
+    .classes_prices .classes{
+        margin-right: 0;
+    }
+    .gallery_partners .col{
+        max-width: 370px;
+        margin-left: 0;
+    }
+    .map .col{
+        margin: 0;
+    }
+}
+
+
+@media(max-width: 992px){
+    .col{
+        max-width: 51%;
+    }
+    .col:first-of-type{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    .col:nth-of-type(2){
+        margin-left: 0;
+    }
+    header .container{
+        align-items: flex-start;
+    }
+    header nav ul li{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .trainers_events_blog .blog .row{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        margin-bottom: 30px;
+    }
+    .map .col{
+        max-width: 45%;
+    }
+
+    .motto p:before{
+        position: static;
+    }
+}
+
+
+@media(max-width: 768px){
+    .col{
+        max-width: 370px;
+    }
+    .classes_prices .classes .table{
+        flex-wrap: wrap;
+    }
+    .classes_prices .classes .table .col_of_table{
+        width: 70%;
+        margin: auto;
+    }
+    .classes_prices .classes:before{
+        display: none;
+    }
+    .map .container{
+        position: relative;
+        justify-content: center;
+    }
+    .map .col{
+        max-width: 370px;
+        margin-bottom: 0;
+    }
+    .motto{
+        padding: 80px 0;
+    }
+}
+@media(max-width: 576px){
+    h1,h2{
+        font-size: 21px;
+    }
+    section{
+        padding-bottom: 50px;
+    }
+    .workouts{
+        padding: 50px 0 ;
+    }
+    .workouts p{
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .classes_prices .classes .table .col_of_table .row{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .classes_prices .classes .table h5{
+        margin-bottom: 10px;
+    }
+    .classes_prices .classes .table h5:before{
+        display: none;
+    }
+    .classes_prices .classes .table .col_of_table .row .icon_group a:first-of-type{
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width: 375px){
+    .trainers_events_blog .trainers .owl-carousel:after{
+        display: none;
+    }
+}
