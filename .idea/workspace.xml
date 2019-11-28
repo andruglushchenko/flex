@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ac465af-a1f4-4ef9-bac6-ff1f4e723c7d" name="Default Changelist" comment="" />
+    <list default="true" id="5ac465af-a1f4-4ef9-bac6-ff1f4e723c7d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TFBhwVtQ771MTG4qCjy9uMLouZ" />
   <component name="PropertiesComponent">
@@ -87,10 +94,37 @@
       <workItem from="1573827298499" duration="3080000" />
       <workItem from="1573899506140" duration="3727000" />
       <workItem from="1573903294798" duration="640000" />
+      <workItem from="1573907539188" duration="33000" />
+      <workItem from="1574181253334" duration="358000" />
+      <workItem from="1574181646509" duration="5462000" />
+      <workItem from="1574229856090" duration="24000" />
+      <workItem from="1574354513843" duration="90000" />
+      <workItem from="1574362534717" duration="59000" />
+      <workItem from="1574486096487" duration="122000" />
+      <workItem from="1574486272489" duration="77000" />
+      <workItem from="1574508982540" duration="33000" />
+      <workItem from="1574509644080" duration="171000" />
+      <workItem from="1574603837111" duration="49000" />
+      <workItem from="1574604276582" duration="68000" />
+      <workItem from="1574604768508" duration="33000" />
+      <workItem from="1574844162012" duration="1241000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

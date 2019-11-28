@@ -138,27 +138,46 @@ h6{
 .for_social .social a{
     display: inline-block;
 
-    font-size: 12px;
-    line-height: 12px;
-    font-weight: 400;
-    color: #fff;
-
     margin-left: 15px;
     transition: 0.4s;
 }
-.for_social .social .facebook:hover{
+.for_social .social a:before{
+    display: inline-block;
+
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+.for_social .social .facebook:before{
+    content: '\f39e';
+}
+.for_social .social .twitter:before{
+    content: '\f099';
+}
+.for_social .social .pinterest:before{
+    content: '\f231';
+}
+.for_social .social .google:before{
+    content: '\f0d5';
+}
+.for_social .social .instagram:before{
+    content: '\f16d'
+}
+.for_social .social .facebook:hover:before{
     color: #029ec6;
 }
-.for_social .social .twitter:hover{
+.for_social .social .twitter:hover:before{
     color: #029ec6;
 }
-.for_social .social .pinterest:hover{
+.for_social .social .pinterest:hover:before{
     color: pink;
 }
-.for_social .social .google:hover{
+.for_social .social .google:hover:before{
     color: #029ec6;
 }
-.for_social .social .instagram:hover{
+.for_social .social .instagram:hover:before{
     color: indianred;
 }
 
@@ -288,13 +307,26 @@ header nav ul li a:hover{
 }
 .classes_prices .classes .table .col_of_table .row .icon_group a{
     display: inline-block;
-    font-size: 14px;
-    font-weight: 400;
-    color: #fff;
-
     margin-left: 20px;
 }
-.classes_prices .classes .table .fas{
+.classes_prices .classes .table .col_of_table .row .icon_group a:before{
+    display: inline-block;
+    font-family: "Font Awesome\ 5 Brands","Font Awesome\ 5 Free",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+.classes_prices .classes .table .col_of_table .row .icon_group .calendar:before{
+    content: '\f133';
+}
+.classes_prices .classes .table .col_of_table .row .icon_group .envelope:before{
+    content: '\f0e0';
+}
+.classes_prices .classes .table .col_of_table .row .icon_group .heart:before{
+    content: '\f004';
+}
+.classes_prices .classes .table .col_of_table .row .icon_group .share:before{
+    content: '\f064';
     font-weight: 900;
 }
 .classes_prices .prices {
@@ -385,21 +417,19 @@ header nav ul li a:hover{
 
     margin-bottom: 16px;
 }
-.trainers_events_blog .trainers i{
+
+.trainers_events_blog .trainers .like i,.trainers_events_blog .trainers .social i{
     width: 12px;
     height: 12px;
     font-size: 12px;
     color: #b8b8b8;
-    margin-right: 5px;
+    font-weight: 900;
 
+    margin-left: 10px ;
     transition: 0.4s;
 }
-
-.trainers_events_blog .trainers .fa-heart:hover{
-     color: red;
-}
-.trainers_events_blog .trainers .fa-thumbs-up:hover{
-    color: #029ec6;
+.trainers_events_blog .trainers .fas:hover{
+    color: red;
 }
 .trainers_events_blog .trainers .fab:hover{
     color: #72d0f4;
@@ -609,13 +639,15 @@ header nav ul li a:hover{
 .gallery_partners .partner{
     padding: 20px 0;
     text-align: center;
-
-
 }
-.gallery_partners .partner img{
+.gallery_partners .partner a{
     display: inline-block;
     margin-left: 20px;
     margin-bottom: 50px;
+}
+.gallery_partners .partner img{
+    display:block;
+    width: 100%;
 }
 .gallery_partners .partner img:nth-of-type(5),
 .gallery_partners .partner img:last-of-type{
